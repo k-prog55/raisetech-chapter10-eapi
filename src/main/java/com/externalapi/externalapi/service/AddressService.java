@@ -4,5 +4,5 @@ import com.externalapi.externalapi.entity.Address;
 
 //特定の郵便番号に対応する住所情報を提供するAddressServiceインターフェース
 public interface AddressService {
-    public Address findAddressByZipCode(String zipCode);
+    Address findAddressByZipCode(String zipCode);
 }
